@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
     "nama": "jason",
-    "komentar": "website baik. tempat wisata banyak mengalami perkembangan
+    "komentar": "website baik. tempat wisata banyak mengalami perkembangan"
 }
 
 ###
