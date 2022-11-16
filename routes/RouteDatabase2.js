@@ -9,7 +9,6 @@ import {
 
 const router = express.Router();
 
-// http://localhost:5000/products
 router.get('/feedback', getData);
 router.get('/feedback/:id', getDataById);
 router.post('/feedback', createData);
