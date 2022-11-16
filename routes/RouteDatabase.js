@@ -5,7 +5,7 @@ import {
     createData,
     updateData,
     deleteData,
-} from '../controller/Product.js';
+} from '../controller/DataControll.js';
 
 const router = express.Router();
 

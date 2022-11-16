@@ -8,11 +8,11 @@ POST http://localhost:5000/wisata_sulut
 Content-Type: application/json
 
 {
-    "gambar": "",
-    "nama_tempat": "",
-    "deskripsi": "",
-    "jam_bukaTutup": "",
-    "harga_masuk": 0000
+    "gambar": "test",
+    "nama_tempat": "test",
+    "deskripsi": "test",
+    "jam_bukaTutup": "test",
+    "harga_masuk": 10000
 }
 
 ###
@@ -20,7 +20,11 @@ PATCH http://localhost:5000/wisata_sulut/1
 Content-Type: application/json
 
 {
-    
+    "gambar": "",
+    "nama_tempat": "",
+    "deskripsi": "",
+    "jam_bukaTutup": "",
+    "harga_masuk": 0000
 }
 
 ###
