@@ -8,8 +8,8 @@ POST http://localhost:5000/feedback
 Content-Type: application/json
 
 {
-    "nama": "kevin",
-    "komentar": "sangat baik"
+    "nama": "jason",
+    "komentar": "website baik. tempat wisata banyak mengalami perkembangan
 }
 
 ###

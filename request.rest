@@ -8,11 +8,11 @@ POST http://localhost:5000/wisata_sulut
 Content-Type: application/json
 
 {
-    "gambar": "gambar2",
-    "nama_tempat": "bukit-kasih",
-    "deskripsi": "pemandangan-indah",
+    "gambar": "gambar3",
+    "nama_tempat": "godblesspark",
+    "deskripsi": "suasana ramai",
     "jam_bukaTutup": "jam 9 pagi sampai jam 10 malam",
-    "harga_masuk": 10000
+    "harga_masuk": "gratis"
 }
 
 ###
