@@ -1,0 +1,27 @@
+GET http://localhost:5000/wisata_sulut
+
+###
+GET http://localhost:5000/wisata_sulut/9
+
+###
+POST http://localhost:5000/wisata_sulut
+Content-Type: application/json
+
+{
+    "gambar": "",
+    "nama_tempat": "",
+    "deskripsi": "",
+    "jam_bukaTutup": "",
+    "harga_masuk": 0000
+}
+
+###
+PATCH http://localhost:5000/wisata_sulut/1
+Content-Type: application/json
+
+{
+    
+}
+
+###
+DELETE http://localhost:5000/wisata_sulut/1
