@@ -1,0 +1,25 @@
+GET http://localhost:5000/feedback
+
+###
+GET http://localhost:5000/feedback/9
+
+###
+POST http://localhost:5000/feedback
+Content-Type: application/json
+
+{
+    "nama": "kevin",
+    "komentar": "sangat baik"
+}
+
+###
+PATCH http://localhost:5000/feedback/1
+Content-Type: application/json
+
+{
+    "nama": "",
+    "komentar": ""
+}
+
+###
+DELETE http://localhost:5000/feedback/1
