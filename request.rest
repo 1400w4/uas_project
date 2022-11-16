@@ -7,13 +7,46 @@ GET http://localhost:5000/wisata_sulut/9
 POST http://localhost:5000/wisata_sulut
 Content-Type: application/json
 
+# {
+#     "gambar": "gambar1",
+#     "nama_tempat": "bukit-kelong",
+#     "deskripsi": "suasana dingin",
+#     "jam_bukaTutup": "10.00-21.00",
+#     "harga_masuk": "gratis"
+# }
+
+# {
+#     "gambar": "gambar2",
+#     "nama_tempat": "bukit-kasih",
+#     "deskripsi": "pemandangan-indah",
+#     "jam_bukaTutup": "jam 9 pagi sampai jam 10 malam",
+#     "harga_masuk": "gratis"
+# }
+
+# {
+#     "gambar": "gambar3",
+#     "nama_tempat": "godblesspark",
+#     "deskripsi": "suasana ramai",
+#     "jam_bukaTutup": "jam 9 pagi sampai jam 10 malam",
+#     "harga_masuk": "gratis"
+# }
+
+# {
+#     "gambar": "gambar4",
+#     "nama_tempat": "bukit mahawu",
+#     "deskripsi": "pemandangan asri tempat bersih",
+#     "jam_bukaTutup": "jam 8 sampai jam 9 malam",
+#     "harga_masuk": "50.000"
+# }
+
 {
-    "gambar": "gambar3",
-    "nama_tempat": "godblesspark",
-    "deskripsi": "suasana ramai",
-    "jam_bukaTutup": "jam 9 pagi sampai jam 10 malam",
-    "harga_masuk": "gratis"
+    "gambar": "gambar5",
+    "nama_tempat": "danau linauw",
+    "deskripsi": "suasana ramai, air didanau sangat jernih",
+    "jam_bukaTutup": "jam 8 pagi sampai jam 9 malam",
+    "harga_masuk": "50.000"
 }
+
 
 ###
 PATCH http://localhost:5000/wisata_sulut/1
